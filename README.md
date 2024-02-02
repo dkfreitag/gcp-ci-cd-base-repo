@@ -11,3 +11,9 @@ As soon as a new container is available, the Cloud Run service switches traffic 
 - Connect your GitHub repo to Cloud Build: https://cloud.google.com/build/docs/automating-builds/github/connect-repo-github
 - In Cloud Run, create a new service.
 - Choose `Continuously deploy new revisions from a source repository` and choose your repo.
+
+### Cleanup:
+- Disconnect the repo in Cloud Build
+- Delete the Cloud Build trigger
+- Delete all containers from Artifact Registry
+- Delete the service in Cloud Run
