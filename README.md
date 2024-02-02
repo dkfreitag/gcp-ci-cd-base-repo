@@ -17,3 +17,7 @@ As soon as a new container is available, the Cloud Run service switches traffic 
 - Delete the Cloud Build trigger
 - Delete all containers from Artifact Registry
 - Delete the service in Cloud Run
+
+### Resources:
+- https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service
+- https://github.com/GoogleCloudPlatform/python-docs-samples/tree/main/run/helloworld
