@@ -1,6 +1,6 @@
 # GCP CI/CD Base Repo
 
-This is the base code for a Flask app inside a Docker container that can be deployed via Cloud Build in GCP with continuous integration/continuous deployment.
+This is the base code for a Flask website inside a Docker container that can be deployed via Cloud Build in GCP with continuous integration/continuous deployment.
 
 You'll need to link the GitHub repo to Cloud Build and authenticate to allow Cloud Build to detect new commits to the repo.
 Once configured, simply push a commit to this git repo, and a Cloud Build trigger will build a new Docker image using the most up-to-date source.
